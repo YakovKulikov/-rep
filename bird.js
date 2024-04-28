@@ -6,6 +6,7 @@ const handle = () => {
     // }
     inputs.forEach(el => arr.push(el.value))
     alert(arr.join(""));
+    console.log("Hello")
 }
     const button = document.querySelector(".btn");
     button.addEventListener("click", handle);
